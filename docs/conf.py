@@ -108,9 +108,9 @@ copybutton_remove_prompts = True
 
 # Force copy buttons to be generated
 html_context = {
-    'copybutton_prompt_text': copybutton_prompt_text,
-    'copybutton_prompt_is_regexp': copybutton_prompt_is_regexp,
-    'copybutton_line_continuation_character': copybutton_line_continuation_character,
-    'copybutton_hide': copybutton_hide,
-    'copybutton_remove_prompts': copybutton_remove_prompts,
+    "copybutton_prompt_text": copybutton_prompt_text,
+    "copybutton_prompt_is_regexp": copybutton_prompt_is_regexp,
+    "copybutton_line_continuation_character": copybutton_line_continuation_character,
+    "copybutton_hide": copybutton_hide,
+    "copybutton_remove_prompts": copybutton_remove_prompts,
 }

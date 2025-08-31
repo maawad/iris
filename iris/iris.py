@@ -74,6 +74,7 @@ class Iris:
         >>> print(f"Rank {ctx.cur_rank} of {ctx.num_ranks}")
         >>> tensor = ctx.zeros(1000, 1000, dtype=torch.float32)
     """
+
     def __init__(self, heap_size=1 << 30):
         # Initialize
         comm, cur_rank, num_ranks = init_mpi()
